@@ -6,6 +6,11 @@ const routes = [
     name: "draw",
     component: () => import("../views/DrawPage.vue"),
   },
+  {
+    path: "/add",
+    name: "add",
+    component: () => import("../views/AddingPage.vue"),
+  },
 ];
 
 const router = createRouter({
